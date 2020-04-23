@@ -15,7 +15,7 @@ body {
   position: relative;
   margin: 1rem auto;
 }
-.movie-list a {
+.movie-list a, .save-wrapper a {
   text-decoration: none;
   color: black;
 }
