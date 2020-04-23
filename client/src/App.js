@@ -30,7 +30,7 @@ const App = () => {
   return (
     <div>
       <SavedList list={savedList} />
-      <Route path={'/'}>
+      <Route exact path={'/'}>
         <MovieList movies={movieList} />
       </Route>
       <Route path={'/movies/:id'}>
